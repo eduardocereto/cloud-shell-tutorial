@@ -10,11 +10,19 @@ In this guide we'll prepare a Google Cloud project and deploy the CSE solution.
 
 <walkthrough-project-setup billing="true"></walkthrough-project-setup>
 
+## Enable Required APIs
+
 <walkthrough-enable-apis apis="bigquery.googleapis.com,workflows.googleapis.com,dfareporting.googleapis.com,displayvideo.googleapis.com"></walkthrough-enable-apis>
+
+## Execute these commands
 
 <walkthrough-open-cloud-shell-button></walkthrough-open-cloud-shell-button>
 
-## Enable Required APIs
+```sh
+echo "Hello CSEs"
+```
 
-## Deploy Necessary Services
-Test Test Test
+## Congratulations
+
+<walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
+
